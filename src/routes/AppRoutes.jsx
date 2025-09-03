@@ -12,14 +12,14 @@ import Admissions from "../pages/Admissions";
 import Contact from "../pages/Contact";
 import Gallery from "../pages/Gallery";
 import LoginOptions from "../pages/login/LoginOptions";
-import AdminLogin from "../pages/Login/AdminLogin";
+import AdminLogin from "../pages/login/AdminLogin";
 
 // Lazy load Admin pages
 const AdminLayout = lazy(() => import("../layouts/AdminLayout"));
-const AdminDashboard = lazy(() => import("../pages/Admin/AdminDashboard"));
-const Faculty = lazy(() => import("../pages/Admin/Faculty"));
-const CoursesAdmin = lazy(() => import("../pages/Admin/CoursesAdmin"));
-const GalleryAdmin = lazy(() => import("../pages/Admin/GalleryAdmin"));
+const AdminDashboard = lazy(() => import("../pages/admin/AdminDashboard"));
+const Faculty = lazy(() => import("../pages/admin/Faculty"));
+const CoursesAdmin = lazy(() => import("../pages/admin/CoursesAdmin"));
+const GalleryAdmin = lazy(() => import("../pages/admin/GalleryAdmin"));
 
 // Lazy load Students module (new structure)
 const StudentsPage = lazy(() => import("../features/students/StudentsPage"));
