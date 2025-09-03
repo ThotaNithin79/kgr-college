@@ -11,7 +11,7 @@ import CourseDetail from "../pages/CourseDetail";
 import Admissions from "../pages/Admissions";
 import Contact from "../pages/Contact";
 import Gallery from "../pages/Gallery";
-import LoginOptions from "../pages/Login/LoginOptions";
+import LoginOptions from "../pages/login/LoginOptions";
 import AdminLogin from "../pages/Login/AdminLogin";
 
 // Lazy load Admin pages
